@@ -1,7 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-html{
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body{
   background: url('assets/images/background.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden;
+  background-color: transparent;
 }
