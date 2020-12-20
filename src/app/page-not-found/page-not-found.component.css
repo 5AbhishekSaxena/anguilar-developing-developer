@@ -1,0 +1,54 @@
+.logo {
+    margin:auto;
+    margin-top: 10vh;
+    max-width: 30vw;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    object-fit: contain;
+    margin: auto;
+}
+
+.c-text{
+    margin:auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 60px;
+}
+
+.c-button {
+    margin: auto;
+    margin-bottom: 25vh;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: rgba(17, 31, 43, 0.9);
+    padding: 10px 60px;
+    transition: 0.2s ease-in-out;
+}
+
+.c-button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    color:#000;
+    transition: 0.2s ease-in-out;
+}
+
+@media only screen and (max-width:720px) {
+    body {
+        background-image: url("/img/mob.jpg");
+    }
+
+    .logo {
+        max-width: 60vw;
+    }
+
+    .c-text, 
+    .c-button {
+        margin-bottom: 10px 35vh;
+        padding: 10px, 20px;
+        font-size: 1rem;
+    }
+}
