@@ -1,0 +1,26 @@
+<div class="wrapper">
+    <div class="heading">
+        <img class="profile_pic" src="/assets/images/about-photo.jpg">
+        <div class="primary-text">Abhishek Saxena</div>
+    </div>
+    <div class="sub-heading">About</div>
+    <p class="content">
+        Hello, My name is Abhishek Saxena and I have created this channel to share videos about programming. I am
+        interested in Android Development and have been doing it for nearly 3 years. Some things you can expect by
+        subscribing to this channel are, learn to write optimized and clean code, learn the fundamentals of android
+        development, and improve code quality to a professional level.
+        <br>
+        <br>
+        This channel is a place where I can reach thousands of stranded developers who want to learn but can't find
+        good resources to learn from. This is a place wherein I can share my knowledge and help others to be part of
+        the amazing community of developers.
+    </p>
+
+    <div class="sub-heading">Contact Me</div>
+    <div class="row">
+        <div class="eq-row">
+                <img class="eq-row-item" *ngFor="let item of contactMeItems" (mouseenter) = "item.hover = true" (mouseleave) = "item.hover = false"
+                [src] = "item.hover ? item.selectedImage : item.unSelectedImage" (click)>
+        </div>
+    </div>
+</div>
