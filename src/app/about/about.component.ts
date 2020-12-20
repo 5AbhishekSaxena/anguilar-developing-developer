@@ -17,6 +17,12 @@ export class AboutComponent implements OnInit {
       url: 'https://www.instagram.com/developing.developer/'
     },
     {
+      selectedImage: "assets/images/github_icon.png",
+      unSelectedImage: "assets/images/github_icon.png",
+      hover: false,
+      url: 'https://github.com/5AbhishekSaxena'
+    },
+    {
       selectedImage: "assets/images/yt-selected.png",
       unSelectedImage: "assets/images/yt-unselected.png",
       hover: false,
