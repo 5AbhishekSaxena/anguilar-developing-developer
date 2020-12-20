@@ -20,7 +20,7 @@
     <div class="row">
         <div class="eq-row">
                 <img class="eq-row-item" *ngFor="let item of contactMeItems" (mouseenter) = "item.hover = true" (mouseleave) = "item.hover = false"
-                [src] = "item.hover ? item.selectedImage : item.unSelectedImage" (click)>
+                [src] = "item.hover ? item.selectedImage : item.unSelectedImage" (click)="onNavigate(item.url)">
         </div>
     </div>
 </div>
