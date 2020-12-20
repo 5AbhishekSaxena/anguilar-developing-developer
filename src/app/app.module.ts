@@ -4,13 +4,15 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { ErrorPageComponent } from './error-page/error-page.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ErrorPageComponent
+    PageNotFoundComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
