@@ -3,4 +3,5 @@ export interface ContactMeItem {
     unSelectedImage: string;
     hover: boolean;
     url: string;
+    alt: string;
   }
