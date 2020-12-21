@@ -41,8 +41,9 @@
 }
 
 .wrapper {
-    overflow: auto;
-    flex-wrap: nowrap;
+    overflow: scroll;
+    flex-wrap: none;
+    padding-bottom: 10vh;
 }
 
 .ul-list {
