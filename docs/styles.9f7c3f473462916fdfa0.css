@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap);*{font-family:Poppins,sans-serif}body{background:url(background.5f142040905a1ae9570e.jpg) no-repeat 50% fixed;background-size:cover;height:100%;overflow:hidden;background-color:initial}
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap);*{font-family:Poppins,sans-serif}body{background:url(background.5f142040905a1ae9570e.jpg) no-repeat 50% fixed;background-size:cover;height:100%;overflow:hidden;background-color:initial}.wrapper{padding:0 10vw;margin:auto;display:flex;flex-direction:column;flex-wrap:wrap;height:98vh;background-color:rgba(0,0,0,.8);color:#72da91;border-radius:90px 120px 30px 120px}
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
