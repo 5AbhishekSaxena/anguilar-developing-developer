@@ -1,76 +1,66 @@
 * {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .content {
-    margin: 0px 80px;
-}
-
-.heading {
-    height: fit-content;
-    width: fit-content;
-    padding: 0%;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  margin: 82px auto 32px;
+  padding: 0 16px;
+  max-width: 960px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sub-heading {
-    color: rgb(211, 202, 202);
-    font-size: 1.4rem;
-    font-weight: 600;
-    margin: 1vh 0vh;
-    text-align: center;
+  color: rgb(131, 127, 127);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 10px 0px;
 }
 
 .profile_pic {
-    margin-top: 5vh;
-    border-radius: 50%;
-    max-width: 270px;
-    max-height: 270px;
+  border-radius: 50%;
+  max-width: 170px;
+  max-height: 170px;
 }
 
-.primary-text{
-    color: white;
-    font-size: 1.8rem;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.description {
-    margin-top: 10px;
+.primary-text {
+  color: rgb(0, 0, 0);
+  font-size: 1.8rem;
+  margin-top: 10px;
 }
 
 .wrapper {
-    overflow: scroll;
-    flex-wrap: none;
-    padding-bottom: 10vh;
+  overflow: scroll;
+  flex-wrap: none;
+  padding-bottom: 10vh;
 }
 
 .ul-list {
-    list-style: disc;
+  list-style: disc;
 }
 
 .sub-ul-list {
-    list-style: circle;
+  list-style: circle;
 }
 
 .eq-row {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .eq-row-item {
-    flex-basis: auto;
-    padding: 10px;
-    transition: .2s;
-    max-width: 83px;
-    max-height: 83px;
+  flex-basis: auto;
+  padding: 10px;
+  transition: 0.2s;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .eq-row-item:hover {
-    flex-basis: auto;
-    padding: 10px;
-    transform: scale(1.1);
-    transition: .2s;
+  flex-basis: auto;
+  padding: 10px;
+  transform: scale(1.1);
+  transition: 0.2s;
 }
