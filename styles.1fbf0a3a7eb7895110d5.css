@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap);*{font-family:Poppins,sans-serif}body{background:url(background.5f142040905a1ae9570e.jpg) no-repeat 50% fixed;background-size:cover;height:100%;overflow:hidden;background-color:initial}
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap);*{font-family:Poppins,sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
