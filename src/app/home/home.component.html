@@ -1,44 +1,38 @@
-<h3>Android Developer Learning Path</h3>
+<div class="content">
+  <h1>Android Developer Learning Path</h1>
 
-<div class="container">
-  <div class="card">
-    <div class="card-header bg-primary text-white"></div>
+  <h2 class="display-5">Beginner Learning Path</h2>
+  <div
+    class="card mt-3"
+    *ngFor="let course of basicCourses"
+    style="width: 100%"
+  >
     <div class="card-body">
-      <ul type="none">
-        <li><strong>Basics</strong></li>
-        <ol>
-          <li>Basic Layouts</li>
-          <ul type="disc">
-            <li>Linear Layout</li>
-            <li>Relative Layout</li>
-            <li>Constraint Layout</li>
-          </ul>
-          <li>Basic UI Widgets</li>
-          <ul type="disc">
-            <li>Button</li>
-            <li>EditView</li>
-            <li>TextView</li>
-            <li>Checkboxes</li>
-            <li>Radio Buttons</li>
-            <li>Spinner(Dropdown Menu)</li>
-          </ul>
-          <li>Data Storage in Android</li>
-          <ul type="disc">
-            <li>Key-Value pairs (using Datastore)</li>
-            <li>SQL Database (using Room)</li>
-          </ul>
-          <li>Networking in Android</li>
-          <ul type="disc">
-            <li>Making basic GET Request (using Retrofit or Volley)</li>
-          </ul>
-        </ol>
-        <li><strong>Advance</strong></li>
-        <ol>
-          <li>Testing</li>
-          <li>Firebase</li>
-          <li>Animations (using Motion Layout)</li>
-        </ol>
-      </ul>
+      <div class="row">
+        <div class="col-md-3">add image</div>
+        <div class="col-md-9">
+          <strong>{{ course.heading }}</strong
+          ><br />
+          {{ course.content }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="mt-3">Advance Learning Path</h2>
+  <div
+    class="card mt-3"
+    *ngFor="let course of advanceCourses"
+    style="width: 100%"
+  >
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-3">add image</div>
+        <div class="col-md-9">
+          <strong>{{ course.heading }}</strong
+          ><br />
+          {{ course.content }}
+        </div>
+      </div>
     </div>
   </div>
 </div>
