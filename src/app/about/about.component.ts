@@ -18,8 +18,8 @@ export class AboutComponent implements OnInit {
       alt: 'Instagram logo with profile link'
     },
     {
-      selectedImage: "assets/images/github_icon.png",
-      unSelectedImage: "assets/images/github_icon.png",
+      selectedImage: "assets/images/github-logo.png",
+      unSelectedImage: "assets/images/github-logo.png",
       hover: false,
       url: 'https://github.com/5AbhishekSaxena',
       alt: 'Github logo with profile link'
