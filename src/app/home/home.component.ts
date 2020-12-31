@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Courses } from './Courses';
 
 @Component({
   selector: 'app-home',

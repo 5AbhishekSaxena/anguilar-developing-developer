@@ -1,4 +1,4 @@
-interface Courses {
+export interface Courses {
   heading: String;
   content: String;
 }
