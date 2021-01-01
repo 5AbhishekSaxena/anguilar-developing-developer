@@ -11,9 +11,40 @@ ul ol ul {
 }
 .content {
   display: flex;
-  margin: 82px auto 32px;
+  margin: 50px auto 32px;
   padding: 0 16px;
   max-width: 960px;
   flex-direction: column;
   align-items: center;
+}
+
+.logo {
+  margin: auto;
+  margin-top: 10vh;
+  max-width: 30vw;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  object-fit: contain;
+  margin: auto;
+}
+
+.c-text {
+  margin: auto;
+  margin-top: 5vh;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: rgba(61, 150, 202, 0.9);
+  padding: 10px 60px;
+  transition: 0.2s ease-in-out;
+}
+
+.c-text:hover {
+  background-color: rgba(204, 200, 200, 0.9);
+  color: #000;
+  transition: 0.2s ease-in-out;
 }
