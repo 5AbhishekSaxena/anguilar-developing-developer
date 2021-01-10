@@ -20,6 +20,14 @@
           </div>
           <div class="module-content">
             {{ course.content }}
+            <br />
+            <button
+              type="button"
+              class="mt-2 btn btn-light"
+              (click)="openPage(course.codeSampleUrl)"
+            >
+              <span class="github"></span> Code Sample
+            </button>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 export interface Courses {
-  heading: String;
-  content: String;
-  thumbnail: String;
+  heading: string;
+  content: string;
+  thumbnail: string;
+  codeSampleUrl: string;
 }
