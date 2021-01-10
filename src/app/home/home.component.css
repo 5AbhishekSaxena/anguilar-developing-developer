@@ -17,3 +17,52 @@ ul ol ul {
   flex-direction: column;
   align-items: center;
 }
+
+.card-body {
+  padding: 0rem;
+  overflow: hidden;
+  min-height: 120px;
+}
+
+.card-heading {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.module-content {
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.banner {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.module-thumbnail {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-light {
+  background-color: #f1f5fa;
+  border-color: #f1f5fa;
+}
+
+.btn-light:hover {
+  background-color: #d5e3f1;
+  border-color: #dae0e5;
+  box-shadow: 1px 1px;
+}
+
+.github {
+  background: url("/assets/images/github_icon_16x16.png") no-repeat left center;
+  padding: 0px 15px;
+}
+
+button:focus {
+  outline: 0 !important;
+}
