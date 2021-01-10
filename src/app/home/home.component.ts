@@ -12,21 +12,25 @@ export class HomeComponent implements OnInit {
       heading: 'Basics Layouts',
       content:
         "This module is about the different layouts in the android. Layouts are the basic building blocks in any frontend framework. In this module, you'll learn about Constraint Layout, Linear Layout and Relative Layout.",
+      thumbnail: 'assets/images/layout.png',
     },
     {
       heading: 'Basic UI Widgets',
       content:
         'This module is about the different widgets provided by android. Android has a lot a widgets but in this we will discuss about most commonly used widgets like EditText, TextView, Button, CheckBox, Radio Button, Spinner (Dropdown Menu)',
+      thumbnail: 'assets/images/input.png',
     },
     {
       heading: 'Data Storage in Android',
       content:
         'This module is about understanding how the data is stored in android. There are multiple ways of data persistence, which are key-value pairs using Datastore and SQL database using Room',
+      thumbnail: 'assets/images/storage.png',
     },
     {
       heading: 'Networking in Android',
       content:
         'This module is about understanding how to make basic GET request to fetch data from a server using Retrofit. You can also use volley for the same.',
+      thumbnail: 'assets/images/networking.png',
     },
   ];
 
@@ -35,18 +39,23 @@ export class HomeComponent implements OnInit {
       heading: 'Firebase',
       content:
         'This module is about understanding the firebase integration in Android. Firebase has a lot of tools like analytics, crashlytics, database, storage, authentication and many more. In this module, you will understand, authentication, Cloud Firestore and storage.',
+      thumbnail: 'assets/images/input.png',
     },
     {
       heading: 'Testing',
       content:
         'This module is about understanding the basics of testing in android which is integration testing and unit testing',
+      thumbnail: 'assets/images/input.png',
     },
     {
       heading: 'Animations',
       content:
         'This module is about understanding the basic animations using Motion Layout.',
+      thumbnail: 'assets/images/input.png',
     },
   ];
+
+  areAdvanceCoursesVisible = false;
 
   constructor() {}
 

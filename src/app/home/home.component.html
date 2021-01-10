@@ -1,9 +1,9 @@
-<img src="/assets/images/banner-website.png" style="max-width: 100%" />
+<img src="/assets/images/banner-website.png" />
 
 <div class="content">
-  <h1>Android Developer Learning Path</h1>
+  <h1 class="text-center">Android Developer Learning Path</h1>
 
-  <h2 class="display-5">Beginner Learning Path</h2>
+  <h2 class="display-5 text-center">Beginner Learning Path</h2>
   <div
     class="card mt-3"
     *ngFor="let course of basicCourses"
@@ -11,28 +11,38 @@
   >
     <div class="card-body">
       <div class="row">
-        <div class="col-md-3">add image</div>
+        <div class="col-md-3" style="background-color: rgb(236, 242, 255)">
+          <img src="{{ course.thumbnail }}" />
+        </div>
         <div class="col-md-9">
-          <strong>{{ course.heading }}</strong
-          ><br />
-          {{ course.content }}
+          <div class="card-heading">
+            <strong>{{ course.heading }}</strong>
+          </div>
+          <div class="module-content">
+            {{ course.content }}
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <h2 class="mt-3 display-5">Advance Learning Path</h2>
-  <div
-    class="card mt-3"
-    *ngFor="let course of advanceCourses"
-    style="width: 100%"
-  >
-    <div class="card-body">
-      <div class="row">
-        <div class="col-md-3">add image</div>
-        <div class="col-md-9">
-          <strong>{{ course.heading }}</strong
-          ><br />
-          {{ course.content }}
+  <div *ngIf="areAdvanceCoursesVisible">
+    <h2 class="mt-3 display-5">Advance Learning Path</h2>
+    <div
+      class="card mt-3"
+      *ngFor="let course of advanceCourses"
+      style="width: 100%"
+    >
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-3" style="background-color: rgb(236, 242, 255)">
+            <img src="{{ course.thumbnail }}" height="120px" />
+          </div>
+          <div class="col-md-9">
+            <div class="card-heading">
+              <strong>{{ course.heading }}</strong>
+            </div>
+            {{ course.content }}
+          </div>
         </div>
       </div>
     </div>
