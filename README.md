@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
 
+Project Link: [www.developingdeveloper.tech](https://www.developingdeveloper.tech/)
+
 ## Major dependencies
 - [angular-cli-ghpages](https://github.com/angular-schule/angular-cli-ghpages) - Deploy project to Github Pages
   - Installation guide is in the `README.md`
