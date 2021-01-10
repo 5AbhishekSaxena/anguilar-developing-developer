@@ -1,6 +1,58 @@
+<img class="banner" src="/assets/images/banner-website.png" />
+
 <div class="content">
-  <div class="logo">
-    <img src="../../assets/images/maintenance_image.png" alt="Logo Vector" />
+  <h1 class="text-center">Android Developer Learning Path</h1>
+
+  <h2 class="display-5 text-center">Beginner Learning Path</h2>
+  <div
+    class="card mt-3"
+    *ngFor="let course of basicCourses"
+    style="width: 100%"
+  >
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-3" style="background-color: rgb(236, 242, 255)">
+          <img class="module-thumbnail" src="{{ course.thumbnail }}" />
+        </div>
+        <div class="col-md-9">
+          <div class="card-heading">
+            <strong>{{ course.heading }}</strong>
+          </div>
+          <div class="module-content">
+            {{ course.content }}
+            <br />
+            <button
+              type="button"
+              class="mt-2 btn btn-light"
+              (click)="openPage(course.codeSampleUrl)"
+            >
+              <span class="github"></span> Code Sample
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="c-text">Site Under Construction</div>
+  <div *ngIf="areAdvanceCoursesVisible">
+    <h2 class="mt-3 display-5">Advance Learning Path</h2>
+    <div
+      class="card mt-3"
+      *ngFor="let course of advanceCourses"
+      style="width: 100%"
+    >
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-3" style="background-color: rgb(236, 242, 255)">
+            <img src="{{ course.thumbnail }}" height="120px" />
+          </div>
+          <div class="col-md-9">
+            <div class="card-heading">
+              <strong>{{ course.heading }}</strong>
+            </div>
+            {{ course.content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
